@@ -2,7 +2,9 @@
 
 A React notification bar
 
-## Example
+![alt text](screenshot.png)
+
+## Usage
 
 ```
 import React from 'react';
