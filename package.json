@@ -1,0 +1,57 @@
+{
+  "name": "react-notification-bar",
+  "version": "1.0.0",
+  "description": "A slide-down notification bar built with React",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanbagwell/react-notification-bar.git"
+  },
+  "author": "Ryan Bagwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanbagwell/react-notification-bar/issues"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__mocks__/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/style.js"
+    },
+    "setupFiles": ["jest-localstorage-mock"]
+  },
+  "homepage": "https://github.com/ryanbagwell/react-notification-bar#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.8",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "force-case-sensitivity-webpack-plugin": "^0.2.1",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "gulp": "^3.9.1",
+    "jest": "^22.0.6",
+    "jest-localstorage-mock": "^2.1.0",
+    "node-sass": "^4.7.2",
+    "react-test-renderer": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

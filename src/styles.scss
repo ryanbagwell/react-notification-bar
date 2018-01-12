@@ -1,0 +1,47 @@
+.NotificationBar {
+  max-height: 0;
+  line-height: 40px;
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  transition: max-height .4s linear;
+  padding: 0 40px;
+  overflow: hidden;
+  background: #231f20;
+
+  &.open {
+    max-height: 100px;
+  }
+}
+
+.NotificationBar__message {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.2em;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 75px;
+  color: white;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+.NotificationBar__close {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  transform: translate(0, -50%);
+  line-height: 0;
+  cursor: pointer;
+  opacity: .4;
+  display: block;
+
+  svg path {
+    fill: white;
+  }
+
+}
