@@ -58,7 +58,7 @@ export default class NotificationBar extends React.Component {
 
     if (!this.props.sound) return;
 
-    const snd = new Audio(`data:audio/wav;base64,${popSound}`);
+    const snd = new Audio(`data:audio/mp3;base64,${popSound}`);
 
     snd.play().catch(err => {
       console.warn(`Couldn't play notification sound. Reason: ${err}`);
