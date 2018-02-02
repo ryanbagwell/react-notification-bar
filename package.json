@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/ryanbagwell/react-notification-bar/issues"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
