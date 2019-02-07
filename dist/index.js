@@ -601,9 +601,9 @@ var NotificationBar = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { className: 'NotificationBar ' + (this.state.open ? 'open' : 'closed') },
-        _react2.default.createElement('p', {
-          className: 'NotificationBar__message',
-          dangerouslySetInnerHTML: { __html: this.props.message } }),
+        _react2.default.createElement('div', {
+          dangerouslySetInnerHTML: { __html: this.props.message || this.props.children },
+          className: 'NotificationBar__message' }),
         _react2.default.createElement(
           'a',
           {
