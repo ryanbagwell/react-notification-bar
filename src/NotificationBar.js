@@ -103,9 +103,13 @@ export default class NotificationBar extends React.Component {
 
     return (
       <div className={`NotificationBar ${this.state.open ? 'open' : 'closed'}`}>
-        <div
-          dangerouslySetInnerHTML={{__html: this.props.message || this.props.children}}
-          className="NotificationBar__message" />
+        <div className="NotificationBar__message">
+          {this.props.message ? (
+            <span dangerouslySetInnerHTML={{__html: this.props.message}} />
+          ) :
+            this.props.children
+          }
+        </div>
         <a
           className="NotificationBar__close"
           onClick={this.close}
