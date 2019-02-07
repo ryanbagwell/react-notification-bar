@@ -1,6 +1,6 @@
 {
   "name": "react-notification-bar",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A slide-down notification bar built with React",
   "main": "dist/index.js",
   "scripts": {
