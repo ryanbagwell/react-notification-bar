@@ -52,18 +52,21 @@
     "enzyme-adapter-react-16": "1.1.1",
     "force-case-sensitivity-webpack-plugin": "0.2.1",
     "friendly-errors-webpack-plugin": "1.6.1",
-    "gulp": "3.9.1",
     "jest": "22.0.6",
     "jest-localstorage-mock": "2.1.0",
     "node-sass": "4.7.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
     "react-test-renderer": "16.2.0",
     "sass-loader": "6.0.6",
     "style-loader": "0.19.1",
     "webpack": "3.10.0"
   },
-  "dependencies": {
-    "jsdom": "^11.6.2",
+  "peerDependencies": {
     "react": "16.2.0",
     "react-dom": "16.2.0"
+  },
+  "dependencies": {
+    "jsdom": "^11.6.2"
   }
 }
